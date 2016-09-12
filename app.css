@@ -1,0 +1,92 @@
+body {
+	font-family: "Roboto";
+	padding: 2em;
+	margin: 0;
+}
+#todo-input {
+	width:100%;
+	display:block;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 1px solid #AAA;
+	padding: 0.5em 0;
+	font-size: 1.4em;
+	outline: none;
+	margin-bottom: 1em;
+}
+#pendientes {
+	text-align: left;
+	font-weight: 400;
+	margin-top: 1.5em;
+}
+.title {
+	font-size: 3em;
+	text-align: center;
+	color: #FF5722;
+	margin: 0;
+}
+.sub-title {
+	font-size: 1.6em;
+	text-align: center;
+	color: #222;
+	margin: 0;
+	font-weight: 600;
+}
+body > section {
+	text-align: center;
+	margin-top: 4em;
+}
+.container-todo-list {
+	box-shadow: 0 0 30px #DDD;
+	width: 500px;
+	display: inline-block;
+	padding: 1em;
+}
+.container-todo-list ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.container-todo-list ul li {
+	border-bottom: 1px solid #AAA;
+	text-align: left;
+}
+.container-todo-list ul li > div {
+	padding: 0.5em;
+}
+
+.container-todo-list ul li span.active {
+	background: #69F0AE;
+}
+.container-todo-list ul li span {
+	border: 1px solid #AAA;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	margin-right: 0.8em !important;
+	cursor: pointer;
+}
+.container-todo-list ul li p.complete {
+	text-decoration: line-through;
+	color: #888;
+}
+.container-todo-list ul li p {
+	font-weight: 400;
+	color: #333;
+}
+.container-todo-list ul li p, .container-todo-list ul li span {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	font-size: 1.3em;
+}
+.container-todo-list #guardar {
+	text-decoration: none;
+	font-size: 1.2em;
+	display: inline-block;
+	padding: 0.3em;
+    color: #ff4444;
+    margin-top: 1em;
+    font-weight: 600;
+}
